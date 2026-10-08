@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['hotspot']
+
+roboflow:
+  workspace: epsrg
+  project: hostpot_dataset
+  version: 2
+  license: Private
+  url: https://app.roboflow.com/epsrg/hostpot_dataset/2
